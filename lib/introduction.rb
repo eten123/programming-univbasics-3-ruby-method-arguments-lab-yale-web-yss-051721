@@ -11,7 +11,7 @@ introduction(name)
 
 #def introduction_with_language (name,language)
   ##end
-introduction_with_language("Kim", "Ruby")
+#introduction_with_language("Kim", "Ruby")
 
 
 
