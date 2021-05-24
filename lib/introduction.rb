@@ -4,15 +4,15 @@
 # in order to complete the rest of this course and be ready for the next course!
 
 
-def introduction(name)
+def introduction(name = "Jim")
   puts "Hi, my name is #{name}"
 end
-introduction(Jim)
+introduction(name)
 
 def introduction_with_language (name,language)
   puts "Hi, my name is #{name} and I am learning to program in #{language}"
 end
-introduction_with_language(Kim, Ruby)
+introduction_with_language("Kim", "Ruby")
 
 
 
